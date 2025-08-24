@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aiko After Dark — Coming Soon</title>
+  <meta name="theme-color" content="#0a0a0f" />
+  <meta name="description" content="Aiko After Dark — premium AI girlfriend platform powered by the $AIKO token." />
+
+  <style>
+    :root {
+      --ink:#fff; --muted:#ddd; --hot:#ff3ea5;
+    }
+    *{box-sizing:border-box}
+    html,body {
+      height:100%; margin:0;
+      font-family: Arial, sans-serif;
+      color: var(--ink);
+    }
+
+    /* HERO with background image */
+.hero {
+  height: 100vh;
+  background: url("images/hero-aiko.jpeg") no-repeat center/contain;
+  background-color: #000; /* fills borders around the image */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+    /* dark overlay so text is readable */
+    .hero::before {
+      content:"";
+      position:absolute; inset:0;
+      background: rgba(0,0,0,0.55);
+      z-index:0;
+    }
+
+  .content {
+  position: relative;
+  z-index: 1;              /* keep text above overlay */
+  max-width: 700px;        /* keep content within picture */
+  margin: 0 auto;
+  padding-top: 260px;      /* shift all text down more */
+  text-align: center;
+}
+
+.after-dark {
+  font-size: clamp(32px, 6vw, 56px);
+  font-weight: bold;
+  color: #ff3ea5;
+  text-shadow: 0 0 10px #ff3ea5, 0 0 20px #ff3ea5, 0 0 40px #ff3ea5;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+  margin: 0 auto 30px;     /* space below description */
+  max-width: 600px;        /* keeps it inside her body area */
+}
+.tease {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff3ea5;
+  text-shadow: 0 0 8px #ff3ea5, 0 0 16px #ff3ea5, 0 0 32px #ff3ea5;
+  margin: 30px 0 10px;   /* space above and below */
+  font-style: italic;
+}
+
+.signature {
+  font-family: "Brush Script MT", cursive, sans-serif; /* handwriting style */
+  font-size: 1.6rem;
+  color: #ff3ea5;
+  text-shadow: 0 0 6px #ff3ea5, 0 0 14px #ff3ea5, 0 0 28px #ff3ea5;
+  margin-top: -5px;  /* nudges closer to tease line */
+}
+    .btn {
+      display:inline-block; margin:10px; padding:12px 20px;
+      border-radius:8px; background:#1a1a25;
+      color:#fff; text-decoration:none; font-weight:700;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.1);
+      transition: background .2s, transform .1s;
+    }
+    .btn:hover { background: var(--hot); transform: translateY(-2px); }
+
+    .code {
+      display:inline-block; margin:18px 0; padding:8px 14px;
+      background:#111; border-radius:6px;
+      font-family: monospace; font-size:0.9rem; color:#eee;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color:#bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="content">
+      <h1 class="after-dark">After Dark</h1>
+
+      <p class="description">
+        Meet Aiko at Aiko After Dark — your premium AI girlfriend experience.
+        50 unique companions, photo-to-video magic, and the exclusive $AIKO token fueling it all.
+        More than fantasy — this is the future of desire.
+      </p>
+
+      <p><p class="tease">Get ready to play… I’m coming soon.</p>
+<p class="signature">XO, Aiko</p></p>
+
+      <div>
+        <!-- Replace YOUR_X_URL_HERE and YOUR_JUPITER_URL_HERE -->
+        <a class="btn" href="https://x.com/Aiko74834940712" target="_blank">Follow on X</a>
+        <a class="btn" href="https://pump.fun/coin/6E3NYsCij1pYrFT9KhAQCbM3wTL93Vaa8EEEhYo7pump" target="_blank">Pump.fun</a>
+        <a class="btn" href="https://jup.ag/tokens/6E3NYsCij1pYrFT9KhAQCbM3wTL93Vaa8EEEhYo7pump" target="_blank">Jupiter</a>
+        <a class="btn" href="https://solscan.io/token/6E3NYsCij1pYrFT9KhAQCbM3wTL93Vaa8EEEhYo7pump" target="_blank">Solscan</a>
+      </div>
+
+      <div class="code">Contract: 6E3NYsCij1pYrFT9KhAQCbM3wTL93Vaa8EEEhYo7pump</div>
+
+      <footer>© 2025 Aiko After Dark • Powered by TapNSlap AI</footer>
+    </div>
+  </div>
+
+</body>
+</html>
