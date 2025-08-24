@@ -100,6 +100,63 @@
       font-size: 0.85rem;
       color:#bbb;
     }
+/* ========= Mobile polish ========= */
+@media (max-width: 480px) {
+  .hero {
+    /* slightly darker overlay via pseudo already; this adds a bit more contrast */
+  }
+  .content {
+    padding-top: 200px;         /* moves text down under the heart */
+    max-width: 92vw;
+  }
+
+  .after-dark {
+    font-size: 28px;            /* was larger; keep it readable on narrow screens */
+    margin-bottom: 12px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 1.55;
+    max-width: 88vw;            /* keep text inside the picture area */
+    margin: 10px auto 18px;
+  }
+
+  .tease {
+    font-size: 18px;            /* shrink the pink tease line */
+    margin: 16px 0 6px;
+  }
+
+  .signature {
+    font-size: 18px;
+    margin-top: -2px;
+  }
+
+  /* Buttons: stack into two rows nicely */
+  .btn {
+    padding: 10px 14px;
+    margin: 6px 6px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+
+  /* Contract box: smaller + wraps if needed */
+  .code {
+    font-size: 12px;
+    padding: 6px 10px;
+    max-width: 92vw;
+    white-space: normal;        /* allow wrap on tiny screens */
+    word-break: break-all;
+  }
+}
+
+/* Slightly larger phones / small tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .content { padding-top: 230px; }
+  .after-dark { font-size: 36px; }
+  .description { font-size: 16px; max-width: 86vw; }
+  .tease, .signature { font-size: 20px; }
+}
   </style>
 </head>
 <body>
