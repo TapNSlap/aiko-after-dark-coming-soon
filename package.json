@@ -1,0 +1,27 @@
+{
+  "name": "aiko-after-dark-coming-soon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TapNSlap/aiko-after-dark-coming-soon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TapNSlap/aiko-after-dark-coming-soon/issues"
+  },
+  "homepage": "https://github.com/TapNSlap/aiko-after-dark-coming-soon#readme",
+  "description": "",
+  "dependencies": {
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
